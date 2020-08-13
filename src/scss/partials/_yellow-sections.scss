@@ -1,0 +1,22 @@
+.yellow-bg {
+    padding-top: 200px;
+    background-color: #FBB901;
+    height: 100%;
+    width:100%;
+    img {
+        float: right;
+    }
+}
+
+.balloon {
+    background-color: white;
+    z-index: 9;
+    width: 303px;
+    height: 100%;
+    padding: 25px;
+    position: absolute;
+    left: 175px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

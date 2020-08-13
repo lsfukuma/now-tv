@@ -1,0 +1,50 @@
+header {
+    background-color: #FBB901;
+    position: fixed;
+    width: 100%;
+}
+
+.header-top {
+    text-align: center;
+    padding: 18px;
+
+    img {
+        height: 28px;
+    }
+
+    button {
+        text-align: right;
+        background-color: #FFCA40;
+        border-radius: 25px;
+        border-color: #FFCA40;
+        height: 50px;
+        color: white;
+        line-height: 3.75px;
+       
+    }
+}
+
+.header-bottom {
+    background-color: #680091;
+    width: 100%;
+    
+    ul {
+        list-style: none;
+        text-align: center;
+        
+        li {
+            display: inline-block;
+            color: white;
+            padding:  15px 35px;
+            font-size: 14px;
+            font-weight: 200;
+            
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+        
+        
+    }
+}
