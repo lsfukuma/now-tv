@@ -1,0 +1,14 @@
+.purple-section {
+    background-color: $purple;
+    color: $white;
+    padding: $pdpage;
+    text-align: center;
+    @include displayFlex(center, no-wrap);
+
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+}

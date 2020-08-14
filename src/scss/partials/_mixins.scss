@@ -1,0 +1,19 @@
+@mixin button {
+    text-transform: uppercase;
+    padding: $pdbutton;
+}
+
+@mixin buttonDetails ($fontcolor, $bgcolor, $bordercolor, $borderradius) {
+    color: $fontcolor;
+    background-color: $bgcolor;
+    border: $bordercolor;
+    border-radius: $borderradius;
+    cursor: pointer;
+
+}
+
+@mixin displayFlex ($direction, $wrap) {
+    display: flex;
+    justify-content: $direction;
+    flex-wrap: $wrap;
+}

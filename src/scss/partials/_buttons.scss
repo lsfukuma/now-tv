@@ -1,0 +1,20 @@
+.btn-signup {
+     float: right;
+     font-size: 16px;
+     font-weight: bold;
+     @include buttonDetails ($white, $yellow, $yellow, 25px);
+     padding: $pdbutton;
+}
+
+.btn-purple {
+    @include button;
+    @include buttonDetails($white, $purple, 1px solid $white, 30px);
+    margin: 10px;
+    padding: $pdbutton 2*$pdbutton;
+}
+
+.btn-green {
+    @include button;
+    @include buttonDetails($white, $green, $green, 25px);
+    padding: 15px 60px;
+}

@@ -1,0 +1,35 @@
+.white-section {
+    background-color: $white;
+    color: $purple;
+    text-align: center;
+    padding-bottom: $pdendpage;
+
+    p{
+        color: black;
+        padding: 30px;
+        font-weight: 550;
+    }
+    
+}
+
+.icona {
+    float: left;
+    width: calc(100% / 3);
+    padding: 80px;
+    img {
+        height: 90px;
+        width: 90px;
+    }
+}
+
+.logo {
+    @include displayFlex(center, wrap);
+
+    img {
+        width: 15%;
+        margin: 10px;
+        border: 1px solid lightgray;
+        box-shadow: grayscale($color: #9e9b9b);;
+    }
+}
+

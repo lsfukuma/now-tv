@@ -1,0 +1,12 @@
+.slider {
+    padding: 0;
+    img {
+        width: calc(100% / 3);
+        float: left;
+        padding: 0;
+        border-right: 5px solid $white; //ultima image si deve togliere il bordo
+        
+    }
+
+    
+}

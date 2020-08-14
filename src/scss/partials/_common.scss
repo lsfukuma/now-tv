@@ -9,3 +9,35 @@
     width: 1300px;
     margin: auto;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ul {
+     list-style: none;
+     display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+     box-shadow: none;
+     border-style: none;
+}
+
+ h1,
+ h3 {
+     text-transform: uppercase;
+     padding: 25px;
+ }
+
+ h4 {
+     font-weight: normal;
+ }
+
+ 
