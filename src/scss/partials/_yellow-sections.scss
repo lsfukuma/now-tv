@@ -7,7 +7,7 @@
 
 #img-jumbotrone {
     float: right;
-    height: 500px;
+    width: 90%;
     object-fit: contain;
 }
 
@@ -16,15 +16,15 @@
     z-index: 9;
     text-align: center;
     width: 303px;
-    height: 45%;
+    height: 50%;
     padding: 25px;
     line-height: 1.2;
     position: absolute;
-    left: 175px;
+    left: 10%;
     top: 50%;
     transform: translateY(-50%);
     color: $purple;
-    border-radius: 10px;
+    border-radius: 5px;
     
     p {
         padding: 10px;

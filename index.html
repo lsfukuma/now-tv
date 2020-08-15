@@ -7,12 +7,17 @@
 </head> 
 <body>
     <header>
-        <div class="header-top">
+        <div class="header-top hidden-xs show-lg">
             <div class="container">
                 <img src="img/logo.png" alt="logo purple">
                 <button class="btn-signup"> 
                     <i class="far fa-user"></i>
                     Accedi </button>
+            </div>
+            <div class="header-top show-xs hidden-lg">
+                <i class="fas fa-bars"></i>
+                 <img src="img/logo.png" alt="logo purple">
+                 <i class="far fa-user"></i>
             </div>    
         </div>
         <div class="header-bottom">
@@ -21,7 +26,7 @@
                     <li><a href="#">Film, Serie TV e Show</a> </li>
                     <li><a href="#">Calcio e Sport</a></li>
                     <li><a href="#">NOW TV Smart Stick</a></li>
-                    <li><a href="#"></a>Come Funziona</li>
+                    <li><a href="#">Come Funziona</a></li>
                     <li><a href="#">Catalogo</a></li>
                 </ul>
             </div>
@@ -45,15 +50,39 @@
         </p>
     </section>
     <section class="slider clearfix">
-        <div class="container">
-            <div>
+        <div class="container-fluid">
+            <div class="active">
                 <img src="img/champions.jpg" alt="Champions agosto">
             </div>
-            <div>
+            <div class="active">
                 <img src="img/1-Showreel-gol-pinocchio.jpg" alt="gangs e pinocchio">
             </div>
-            <div>
+            <div class="active">
                 <img src="img/2-Showreel.jpg" alt="diavoli e hollywood">
+            </div>
+            <div class="slider-hidden">
+                <img src="img/3-Showreel-parasite-EPCC.jpg" alt="parasite e catalan">
+            </div>
+            <div class="slider-hidden">
+                <img src="img/showreel-got-natgeo.jpg" alt="il trono di spada e natgeo">
+            </div>
+            <div class="slider-hidden">
+                <img src="img/5-Showreel-Cercando-alaska-XF.jpg" alt="alaska e xfactor">
+            </div>
+            <div class="slider-hidden">
+                <img src="img/Showreel-spiderman-ZZZ.jpg" alt="spiderman e zzz">
+            </div>
+            <div class="slider-hidden">
+                <img src="img/show-immortale-sex-and-the-city-2.jpg" alt="immortale e sex and the city">
+            </div>
+            <div class="slider-hidden">
+                <img src="img/5-Showreel-pets-4-rist.jpg" alt="pets e borghese">
+            </div>
+            <div class="slider-hidden">
+                <img src="img/6-Showreel-gomorra-1994.jpg" alt="gomorra e 1994">
+            </div>
+            <div class="slider-hidden">
+                <img src="img/4-Showreel-F&F-MFS.jpg" alt="FF MFS">
             </div>
         </div>
     </section>
@@ -132,7 +161,7 @@
             </div>
         </div>
     </section>
-    
+
 </body>
 <footer>
     <div class="container">
@@ -149,10 +178,11 @@
                      <li><a href="#"> Mappa del sito</a></li>
                  </ul>
                  <ul>
-                     <li><i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube"></i>
+                     <li>
+                         <a href=""><i class="fab fa-facebook-square"></i></a>
+                         <a href=""><i class="fab fa-twitter"></i></a>
+                         <a href=""><i class="fab fa-instagram"></i></a>
+                         <a href=""><i class="fab fa-youtube"></i></a>                   
                     </li>
                  </ul>
             </div>
@@ -160,10 +190,10 @@
         <div class="footer-bottom">
             <p> <small>Tutti i marchi Sky e i diritti di proprietà intellettuale in essi contenuti, sono di proprietà di
             Sky international AG e sono utilizzati su licenza.
-            Copyright ©2018 Sky Italia - P.IVA 04619241005 
+            Copyright ©2018 Sky Italia - P.IVA 04619241005. <a href="#">Condizioni Generali del Servizio </a>
             </small></p>
-            <a href="#"> <small>Condizioni Generali del Servizio</small></a>
         </div>
     </div>
 </footer>
+<script src="dist/app.js"></script>
 </html>

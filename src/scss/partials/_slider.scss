@@ -7,6 +7,11 @@
         border-right: 5px solid $white; //ultima image si deve togliere il bordo
         
     }
-
+    .slider-hidden {
+        display: none;
+    }
     
+    .active {
+        display: block;
+    }
 }

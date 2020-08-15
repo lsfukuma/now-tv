@@ -9,6 +9,7 @@ header {
     text-align: center;
     padding: 18px;
     height: 100%;
+    color: $white;
 
     img {
         height: 28px;
@@ -35,12 +36,6 @@ header {
     
 }
 
-@media (min-width: 1200px){
-
-}
-
-@media (max-width: 768px){
-    .header-bottom {
-        display: none;
-    }
+.show-xs {
+    @include displayFlex( space-around, no-wrap);
 }}
