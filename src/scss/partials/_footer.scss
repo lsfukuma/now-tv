@@ -9,14 +9,24 @@ footer {
 }
 
 .footer-top {
-    display: inline-block;
-    padding: 20px;
-
-  
+    @include displayFlex(space-around, no-wrap);
+    align-items: flex-end;
+    padding: 20px 150px;
+    ul {
+        padding: $pdpage;
+        li {
+            padding: $pdpage;
+        }
+    }
+    i  {
+        font-size: 30px;
+        padding: $pdpage - 5px;
+    }
 }
 
 .footer-bottom {
-    text-align: center;
-    padding: 20px;
+    text-align: left;
+    margin: auto;
+    padding:  50px 150px;
 
 }

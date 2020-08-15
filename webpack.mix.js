@@ -50,3 +50,5 @@ mix.js('src/app.js', 'dist/').sass('src/scss/app.scss', 'dist/');
 //   terser: {}, // Terser-specific options. https://github.com/webpack-contrib/terser-webpack-plugin#options
 //   postCss: [] // Post-CSS options: https://github.com/postcss/postcss/blob/master/docs/plugins.md
 // });
+mix.copy('node_modules/@fortawesome/fontawesome-free/webfonts' , 'dist/fontawesome/fonts');
+mix.options({processCssUrls: false});
